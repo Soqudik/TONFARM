@@ -27,8 +27,7 @@ REQUIRED_CHANNEL_URL = "https://t.me/TonFarmingChannel"
 CRYPTO_API = "https://pay.crypt.bot/api"
 HEADERS = {"Crypto-Pay-API-Token": CRYPTO_TOKEN}
                                                                                                                         SAVE_DIR = "/storage/emulated/0/TonFarmingBot_v2"
-SAVE_FILE = os.path.join(SAVE_DIR, "farm_data.json")
-BACKUP_FILE = os.path.join(SAVE_DIR, "farm_data_backup.json")
+SAVE_DIR = "/app/data"
                                                                                                                         # ========== 💰 КОМИССИИ ==========
 COMMISSION_FARM = 0.22
 COMMISSION_PET_CLAIM = 0.08
